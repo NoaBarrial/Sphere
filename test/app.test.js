@@ -1,10 +1,10 @@
-const Cube = require('../src/app').Cube;
+const Sphere = require('../src/app').Sphere;
 const expect = require('chai').expect;
 
-describe('Testing the Cube Functions', function() {
-    it('1. The side length of the Cube', function(done) {
-        let c1 = new Cube(2);
-        expect(c1.getSideLength()).to.equal(2);
+describe('Test fonction de la sphere', function() {
+    it('1. Le rayon du sphere', function(done) {
+        let s1 = new Sphere(5);
+        expect(s1.getSideLength()).to.equal(5);
         done();
     });
     
