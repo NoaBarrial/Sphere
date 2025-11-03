@@ -10,13 +10,13 @@ describe('Test fonction de la sphere', function() {
     
     it('2. L air de la surface de la sphere', function(done) {
         let s2 = new Sphere(5);
-        expect(s2.getSurfaceAire()).to.equal(150);
+        expect(s2.getSurfaceAire()).to.be.closeTo(314.159, 0.001);
         done();
     });
     
-    it('3. The volume of the Cube', function(done) {
-        let c3 = new Cube(7);
-        expect(c3.getVolume()).to.equal(343);
+    it('3. Le volume de la sphere', function(done) {
+        let s3 = new Sphere(5);
+        expect(s3.getVolume()).to.be.closeTo(523.599, 0.001);
         done();
     });
     
