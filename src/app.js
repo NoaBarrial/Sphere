@@ -5,8 +5,13 @@ class Sphere {
     }
 
     getRayon() {
-        
-        return rhis.rayon;
+
+        return this.rayon;
+    }
+
+    getSurfaceAire() {
+
+        return ((4 / 3) * Math.PI * Math.pow(this.rayon, 3));
     }
 
 }
