@@ -4,6 +4,11 @@ class Sphere {
         this.rayon = rayon;
     }
 
+    getRayon() {
+        
+        return rhis.rayon;
+    }
+
 }
 
 module.exports = {
