@@ -1,7 +1,7 @@
-class Pyramide {
+class Sphere {
 
 }
 
 module.exports = {
-    Piramyde:Pyramide
+    Sphere:Sphere
 }
